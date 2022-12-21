@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@1&display=swap');
+@font-face {
+    font-family: "Oswald-VariableFont_wght";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body { 
+    background: rgb(79, 169, 87); 
+    font-family: 'PressStart2P', cursive; 
+} 
+.block{ 
+    display: inline-block; 
+    width: 300px; 
+    height: 300px;
+    transition-duration: 1s;
+} 
+#h1{ 
+    text-align: center; 
+    font-size: 30px; 
+    color: black; 
+    font-family: 'Oswald-VariableFont_wght';
+    text-shadow: 5px 5px 10px red;
+} 
+
+#h1:hover{
+    transition-duration: 1s;
+    color: rgb(109, 109, 187); 
+}
+.block1{ 
+    border: 5px solid purple; 
+    border-radius: 10px 10px; 
+    padding: 100px 0; 
+    text-align: center;
+    margin: 20px 10px; 
+    width: 525px; 
+    background:url("а40.jpg") top center/contain no-repeat; 
+    background-color: white;
+    box-shadow: 10px 10px 30px rgb(184, 98, 184); 
+} 
+.block2{ 
+    border: 5px solid purple; 
+    border-radius: 10px 10px; 
+    padding: 100px 0; 
+    text-align: center; 
+    margin: 20px 10px; 
+    width: 445px; 
+    background:url("км.jpg") top center/contain no-repeat; 
+    background-color: white;
+    box-shadow: 10px 10px 30px rgb(184, 98, 184); 
+} 
+.block3{ 
+    border: 5px solid purple; 
+    border-radius: 10px 10px; 
+    padding: 100px 0; 
+    text-align: center; 
+    margin: 20px 10px; 
+    width: 395px; 
+    background:url("вва14.jpg") top center/contain no-repeat; 
+    background-color: white;
+    box-shadow: 10px 10px 30px rgb(184, 98, 184); 
+}
+.block4{ 
+    border: 5px solid purple; 
+    border-radius: 10px 10px; 
+    padding: 100px 0; 
+    text-align: center; 
+    margin: 20px 10px; 
+    width: 445px; 
+    background:url("сусемь.jpg") top center/contain no-repeat;
+    background-color: white; 
+    box-shadow: 10px 10px 30px rgb(184, 98, 184); 
+}
+.block5{ 
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 30px;  
+    text-align: center;
+    margin: 20px 10px; 
+    width: 250px;
+    position: absolute;
+    bottom: 670px;
+    left: 100px;; 
+}
+.block6{
+    font-family: 'Anonymous Pro', monospace; 
+    font-size: 30px;  
+    text-align: center;
+    margin: 20px 10px; 
+    width: 250px;
+    position: absolute;
+    bottom: 670px;
+    left: 620px; 
+}
+.block7{ 
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 30px;  
+    text-align: center;
+    margin: 20px 10px; 
+    width: 250px;
+    position: absolute;
+    bottom: 670px;
+    left: 1090px; 
+}
+.block8{
+    font-family: 'Anonymous Pro', monospace; 
+    font-size: 30px;  
+    text-align: center;
+    margin: 20px 10px; 
+    width: 250px;
+    position: absolute;
+    bottom: 670px;
+    left: 1525px; 
+}
+.block1:hover{
+    transition-duration: 1s;
+    box-shadow: 10px 20px 20px red;
+}
+.block2:hover{
+    transition-duration: 1s;    
+    box-shadow: 10px 20px 20px red;
+}
+.block3:hover{
+    transition-duration: 1s;
+    box-shadow: 10px 20px 20px red;
+}
+.block4:hover{
+    transition-duration: 1s;
+    box-shadow: 10px 20px 20px red;
+}
+.block5:hover{
+    transition-duration: 1s;
+    color: rgb(109, 109, 187);
+}.block6:hover{
+    transition-duration: 1s;
+    color: rgb(109, 109, 187)
+
+}.block7:hover{
+    transition-duration: 1s;
+    color: rgb(109, 109, 187)
+
+}
+.block8:hover{
+    transition-duration: 1s;
+    color: rgb(109, 109, 187)
+}
+.block9{ 
+    border: 5px solid purple; 
+    border-radius: 10px 10px;  
+    text-align: center; 
+    width: 550px; 
+    height: 140px;
+    background-color: white; 
+    box-shadow: 10px 10px 30px rgb(184, 98, 184); 
+}
+li:nth-of-type(2n+1){
+    background-color: red;
+}
+li:nth-of-type(2n){
+    background-color: white;
+}
+.block::first-letter{
+    font-size: 150%;
+    color:purple
+}
+.block1 {
+    position: relative;
+}
+.block1::after {
+    height: 100%;
+    content: "";
+    background: rgb(201, 100, 100);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    border-radius: 6px;
+    transition-duration: 1s;
+}
+
+.block1::before {
+    content: "ЧЗХ?!";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    opacity: 0;
+    z-index: 10;
+
+}
+.block1:hover::after,
+.block1:hover::before {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.block2 {
+    position: relative;
+}
+.block2::after {
+    height: 100%;
+    content: "";
+    background: rgb(201, 100, 100);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    border-radius: 6px;
+    transition-duration: 1s;
+}
+
+.block2::before {
+    content: "умер:(";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    opacity: 0;
+    z-index: 10;
+
+}
+.block2:hover::after,
+.block2:hover::before {
+    opacity: 0.5;
+    cursor: pointer;
+}.block3 {
+    position: relative;
+}
+.block3::after {
+    height: 100%;
+    content: "";
+    background: rgb(201, 100, 100);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    border-radius: 6px;
+    transition-duration: 1s;
+}
+
+.block3::before {
+    content: "ВВА-14)";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    opacity: 0;
+    z-index: 10;
+
+}
+.block3:hover::after,
+.block3:hover::before {
+    opacity: 0.5;
+    cursor: pointer;
+}.block4 {
+    position: relative;
+}
+.block4::after {
+    height: 100%;
+    content: "";
+    background: rgb(201, 100, 100);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    border-radius: 6px;
+    
+}
+
+.block4::before {
+    content: "классика";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    opacity: 0;
+    z-index: 10;
+
+}
+.block4:hover::after,
+.block4:hover::before {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
